@@ -2,6 +2,6 @@
 import type { Decorator } from 'final-form'
 import type { Calculation } from './types'
 
-declare export default function createDecorator<FormValuesShape>(
+declare export default function createDecorator<FormValues>(
   ...calculations: Calculation[]
-): Decorator<FormValuesShape>
+): Decorator<FormValues>
